@@ -16,8 +16,6 @@ body {
 
 }
 
-
-
 h3{
     color: rgb(255, 145, 10);
 }
@@ -208,10 +206,10 @@ p .clickhere:hover {
 .cards:first-child{
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0,0,0,0.4)
-    ),
-    url(https://i.blogs.es/496f58/circuito-refrigeracion/1366_2000.jpg);
+        rgba(0, 0, 0, 0.275),
+        rgba(0,0,0,0.275)
+        ),
+    url(../resources/P1-demo.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -219,10 +217,10 @@ p .clickhere:hover {
 .cards:nth-child(2){
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0,0,0,0.4)
+        rgba(0, 0, 0, 0.275),
+        rgba(0,0,0,.275)
     ),
-    url(https://i.pinimg.com/736x/4f/0b/61/4f0b61e9bca79c22ab1435168a05faff.jpg);
+    url(../resources/P2-demo.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -230,10 +228,10 @@ p .clickhere:hover {
 .cards:nth-child(3){
     background-image: linear-gradient(
         0deg,
-        rgba(0, 0, 0, 0.4),
-        rgba(0,0,0,0.4)
+        rgba(0, 0, 0, 0.275),
+        rgba(0, 0, 0, 0.275)
     ),
-    url(https://www.digitaltrends.com/wp-content/uploads/2024/02/Skytech-Gaming.jpg?fit=720%2C720&p=1);
+    url(../resources/P3-demo.webp);
     background-position: center center;
     background-size: cover;
 }
